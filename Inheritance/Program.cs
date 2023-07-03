@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Inheritance
 {
@@ -28,12 +29,37 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            Bird ostrich = new Bird();
+            ostrich.flies = false;
+            ostrich.numFeather = 300;
+            ostrich.beakSize = 8;
+            ostrich.wingSpan = 7;
+            ostrich.age = 3;
+            ostrich.eyes = 2;
+            ostrich.height = 5;
+            ostrich.legs = 2;
+
+            ostrich.birdDetails();
+            ostrich.animalDetails();
+            Console.WriteLine();
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+            Reptile crocodile = new Reptile();
+            crocodile.nocturnal = false;
+            crocodile.aquatic = true;
+            crocodile.eggSize = 5;
+            crocodile.numScales = 500;
+            crocodile.age = 2;
+            crocodile.eyes = 2;
+            crocodile.height = 1;
+            crocodile.legs = 4;
+
+            crocodile.reptileDetails();
+            crocodile.animalDetails(); 
         }
     }
 }
