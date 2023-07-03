@@ -63,3 +63,32 @@ namespace Inheritance
         }
     }
 }
+
+
+/* Codewars solution:
+ 
+        public class God
+        {
+          public static Human[] Create()
+          {
+            Man adam = new Man();
+            Woman eve = new Woman();
+            return (new Human[] {adam, eve});
+          }
+        }
+        public class Human
+        {
+  
+        }
+
+        public class Woman : Human
+        {
+  
+        }
+
+        public class Man : Human
+        {
+  
+        }
+ 
+ */
